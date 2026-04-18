@@ -25,7 +25,7 @@ def extract_spectrogram(y):
     mel_db = librosa.power_to_db(mel, ref=np.max)
     return mel_db
 
-silence_audio, _ = librosa.load("./ReaLISED_Dataset/silence.flac", sr=SR)
+silence_audio, _ = librosa.load("./dataset/silence.flac", sr=SR)
 silence_spec = extract_spectrogram(silence_audio)
 if silence_spec.shape[1] < MAX_LEN:
     pad = MAX_LEN - silence_spec.shape[1]
