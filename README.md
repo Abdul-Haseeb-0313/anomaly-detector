@@ -165,4 +165,3 @@ This detector can be deployed in community centres, shelters, or public spaces t
 
 ---
 *Built for the Socio‑Matics Edge AI Engineer Intern Challenge – April 2026*
-```
