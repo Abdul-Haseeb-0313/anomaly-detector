@@ -1,0 +1,4 @@
+Threshold (99th percentile): 0.002099
+Simulated AUC: 1.0000
+F1 score at threshold: 0.9946
+Note: AUC and F1 are estimated using synthetic noise anomalies.

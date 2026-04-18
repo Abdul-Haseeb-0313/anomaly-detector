@@ -1,0 +1,3 @@
+TFLite model size: 0.33 MB
+Average inference time (CPU): 14.57 ms
+Note: Conversion used SELECT_TF_OPS to handle dynamic upsampling shapes.
