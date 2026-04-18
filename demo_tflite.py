@@ -11,7 +11,7 @@ MAX_LEN = 85
 MODEL_PATH = "autoencoder_quant.tflite"
 
 # Load threshold
-threshold = 0.02
+threshold = 0.002
 
 # Load TFLite model
 interpreter = tf.lite.Interpreter(model_path=MODEL_PATH)
