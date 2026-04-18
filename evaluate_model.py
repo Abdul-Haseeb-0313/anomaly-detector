@@ -6,8 +6,8 @@ from tensorflow.keras.models import load_model
 from sklearn.metrics import roc_curve, auc
 
 # --- CONFIG ---
-DATA_PATH = "./ReaLISED_Dataset"          # path to your .flac files
-SILENCE_PATH = "./ReaLISED_Dataset/silence.flac"
+DATA_PATH = "./dataset"          # path to your .flac files
+SILENCE_PATH = "./dataset/silence.flac"
 SR = 22050
 N_MELS = 128
 MAX_LEN = 85                     # must match training
